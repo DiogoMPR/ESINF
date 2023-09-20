@@ -11,8 +11,5 @@ public class Exerc_1F {
      public static int[][] sumOfElements (int n, int[][] array){
 
         // Base Case : If the array has only one element, we should return that element
-
-         if()
-
      }
 }
