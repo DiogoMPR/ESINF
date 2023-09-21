@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1F.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1F.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +55,26 @@
       <option name="presentableId" value="Default" />
       <updated>1695203259811</updated>
     </task>
+    <task id="LOCAL-00001" summary="Week 1 pl exercise 1 almost done">
+      <created>1695228578237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695228578237</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Week 1 pl exercise 1 F">
+      <created>1695228664090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695228664090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Week 1 pl exercise 1 almost done" />
+    <MESSAGE value="Week 1 pl exercise 1 F" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 1 pl exercise 1 F" />
   </component>
 </project>
