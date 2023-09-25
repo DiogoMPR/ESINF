@@ -13,8 +13,6 @@ public class Exerc_1E {
 
     public static boolean checkIfPalindrome(int number) {
 
-        int reversed = reverseNumber(number);
-
         // Base Case : the number is already reversed.
 
         if (number < 0) {
@@ -23,16 +21,16 @@ public class Exerc_1E {
 
         // Recursive Step : Verifies if the initial number is equal to the reversed one
 
-        return number == reversed;
+        return reverseNumber(number, number,0);
     }
 
-    public static int reverseNumber(int number) {
-        int reversed = 0;
-        while (number > 0) {
-            int lastDigit = number % 10;
-            reversed = reversed * 10 + lastDigit;
-            number /= 10;
+    public static boolean reverseNumber(int number, int current, int reversed) {
+        if(current == 0){
+            return number == reversed;
         }
-        return reversed;
+        int lastDigit = current % 10;
+        reversed = reversed * 10 + lastDigit;
+
+        return reverseNumber(number, current/10, reversed);
     }
 }

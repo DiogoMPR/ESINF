@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week1/Exerc_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week1/Exerc_2A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week1/Exerc_2B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week1/Exerc_2C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week1/Exerc_2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1E.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week1/Exerc_1E.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695292625662</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Week 1 TP exercises done">
+      <created>1695480360747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695480360747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Week 1 pl exercise 1 almost done" />
     <MESSAGE value="Week 1 pl exercise 1 F" />
     <MESSAGE value="Week 1 pl exercise 1)F done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 1 pl exercise 1)F done" />
+    <MESSAGE value="Week 1 TP exercises done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 1 TP exercises done" />
   </component>
 </project>
