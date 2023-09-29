@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2/Supermarket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2/invoices" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week2/BufferDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week2/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week2/PriorityBufferPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TP_Week2/PriorityBufferPrinterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/Faculdade/2º Ano/1º Semestre/ESINF",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -65,6 +64,7 @@
       <recent name="C:\Users\Utilizador\OneDrive\Ambiente de Trabalho\Faculdade\2º Ano\1º Semestre\ESINF\ESINF_PLs_E_TPs\src\main\resources" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TP_Week2" />
       <recent name="PLs_Week2" />
     </key>
   </component>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695680618830</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Supermarket exercise finalized">
+      <created>1695854989880</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695854989880</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +128,7 @@
     <MESSAGE value="Week 1 pl exercise 1)F done" />
     <MESSAGE value="Week 1 TP exercises done" />
     <MESSAGE value="Exercise 1E corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1E corrected" />
+    <MESSAGE value="Supermarket exercise finalized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Supermarket exercise finalized" />
   </component>
 </project>
