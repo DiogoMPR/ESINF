@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week2/BufferDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week2/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TP_Week2/PriorityBufferPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TP_Week2/PriorityBufferPrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +35,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2Vej5s03BN0cduStkd6nK09VIpr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,12 +49,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/Faculdade/2º Ano/1º Semestre/ESINF",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/Faculdade/2º Ano/1º Semestre/ESINF/ESINF_PLs_E_TPs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,6 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695203259811</updated>
+      <workItem from="1696942573824" duration="3580000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 pl exercise 1 almost done">
       <created>1695228578237</created>
@@ -119,8 +129,18 @@
       <option name="project" value="LOCAL" />
       <updated>1695854989880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exercise 2 from TP2 done">
+      <created>1696006095324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696006095324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Week 1 pl exercise 1 almost done" />
@@ -129,6 +149,7 @@
     <MESSAGE value="Week 1 TP exercises done" />
     <MESSAGE value="Exercise 1E corrected" />
     <MESSAGE value="Supermarket exercise finalized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Supermarket exercise finalized" />
+    <MESSAGE value="Exercise 2 from TP2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 2 from TP2 done" />
   </component>
 </project>
