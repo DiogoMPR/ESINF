@@ -2,10 +2,9 @@ package PLs_Week2;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.junit.jupiter.api.Assertions.*;
 
+import PLs_Week2_JCF.Product;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *

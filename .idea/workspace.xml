@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="Exercise 1 e structure of the exercise 2 from PL3 done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise1Extra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2Extra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/invoices" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/invoices" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,35 +44,35 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Vej5s03BN0cduStkd6nK09VIpr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/Faculdade/2º Ano/1º Semestre/ESINF/ESINF_PLs_E_TPs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Utilizador/OneDrive/Ambiente de Trabalho/Faculdade/2º Ano/1º Semestre/ESINF/ESINF_PLs_E_TPs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -85,7 +94,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695203259811</updated>
-      <workItem from="1696942573824" duration="3580000" />
+      <workItem from="1696942573824" duration="3878000" />
+      <workItem from="1696949629548" duration="73000" />
+      <workItem from="1696949709530" duration="322000" />
+      <workItem from="1697039237935" duration="3933000" />
+      <workItem from="1697453635732" duration="3156000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 pl exercise 1 almost done">
       <created>1695228578237</created>
@@ -136,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696006095324</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exercise 1 e structure of the exercise 2 from PL3 done">
+      <option name="closed" value="true" />
+      <created>1696947605136</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696947605136</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +171,7 @@
     <MESSAGE value="Exercise 1E corrected" />
     <MESSAGE value="Supermarket exercise finalized" />
     <MESSAGE value="Exercise 2 from TP2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 2 from TP2 done" />
+    <MESSAGE value="Exercise 1 e structure of the exercise 2 from PL3 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1 e structure of the exercise 2 from PL3 done" />
   </component>
 </project>

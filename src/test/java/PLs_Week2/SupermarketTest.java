@@ -6,6 +6,9 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import PLs_Week2_JCF.Invoice;
+import PLs_Week2_JCF.Supermarket;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
