@@ -1,6 +1,5 @@
-package PLs_Week2;
+package PLs_Week2_JCF;
 
-import PLs_Week2_JCF.Invoice;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

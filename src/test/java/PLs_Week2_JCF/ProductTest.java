@@ -1,9 +1,8 @@
-package PLs_Week2;
+package PLs_Week2_JCF;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import PLs_Week2_JCF.Product;
 import org.junit.Test;
 
 /**

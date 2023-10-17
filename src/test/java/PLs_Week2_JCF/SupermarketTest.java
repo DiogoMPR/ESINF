@@ -1,4 +1,4 @@
-package PLs_Week2;
+package PLs_Week2_JCF;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -7,8 +7,6 @@ import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import PLs_Week2_JCF.Invoice;
-import PLs_Week2_JCF.Supermarket;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

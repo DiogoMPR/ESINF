@@ -1,6 +1,4 @@
-package PLs_Week2;
-
-import java.util.Objects;
+package PLs_Week2_JCF;
 
 /**
  * The type Product.

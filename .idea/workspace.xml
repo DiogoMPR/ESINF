@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="Exercise 1 e structure of the exercise 2 from PL3 done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise1Extra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2Extra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise4.java" afterDir="false" />
+    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="PL3 finalized and some overall structure fixes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/AVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/BSTInteface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE_WORDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TextWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREETest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREE_WORDSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/UtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Supermarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2/invoices" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/invoices" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week3/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_JCF/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_JCF/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_JCF/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +102,8 @@
       <workItem from="1696949629548" duration="73000" />
       <workItem from="1696949709530" duration="322000" />
       <workItem from="1697039237935" duration="3933000" />
-      <workItem from="1697453635732" duration="3156000" />
+      <workItem from="1697453635732" duration="3454000" />
+      <workItem from="1697494688533" duration="3395000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 pl exercise 1 almost done">
       <created>1695228578237</created>
@@ -157,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696947605136</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="PL3 finalized and some overall structure fixes">
+      <option name="closed" value="true" />
+      <created>1697457059444</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697457059444</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +185,7 @@
     <MESSAGE value="Supermarket exercise finalized" />
     <MESSAGE value="Exercise 2 from TP2 done" />
     <MESSAGE value="Exercise 1 e structure of the exercise 2 from PL3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1 e structure of the exercise 2 from PL3 done" />
+    <MESSAGE value="PL3 finalized and some overall structure fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="PL3 finalized and some overall structure fixes" />
   </component>
 </project>
