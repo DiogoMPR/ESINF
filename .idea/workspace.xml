@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="Some structural changes and fixes">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/xxx.xxx" afterDir="false" />
+    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="Week 4 PL exercise done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_DLL/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_DLL/DoublyLinkedListIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_DLL/DoublyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/AVL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE_WORDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE_WORDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week4/BTSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/BSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREETest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +66,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="PLs_Week2_DLL" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -79,39 +76,41 @@
       <recent name="C:\Users\Utilizador\OneDrive\Ambiente de Trabalho\Faculdade\2º Ano\1º Semestre\ESINF\ESINF_PLs_E_TPs\src\main\java\PLs_Week2" />
       <recent name="C:\Users\Utilizador\OneDrive\Ambiente de Trabalho\Faculdade\2º Ano\1º Semestre\ESINF\ESINF_PLs_E_TPs\src\main\resources" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="PLs_Week2_DLL" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="TP_Week2" />
       <recent name="PLs_Week2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TREE_WORDSTest">
-    <configuration name="AVLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DoublyLinkedListIteratorTest">
+    <configuration name="DoublyLinkedListIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ESINF_PLs_E_TPs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="PATTERN" value="PLs_Week2_DLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PLs_Week4" />
-      <option name="MAIN_CLASS_NAME" value="PLs_Week4.AVLTest" />
+      <option name="PACKAGE_NAME" value="PLs_Week2_DLL" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week2_DLL.DoublyLinkedListIteratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSTTest.testpreOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ESINF_PLs_E_TPs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="PATTERN" value="PLs_Week2_DLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PLs_Week4" />
-      <option name="MAIN_CLASS_NAME" value="PLs_Week4.BSTTest" />
-      <option name="METHOD_NAME" value="testpreOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="PLs_Week2_DLL" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week2_DLL.DoublyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DoublyLinkedListIteratorTest" />
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
         <item itemvalue="JUnit.TREE_WORDSTest" />
         <item itemvalue="JUnit.UtilsTest" />
         <item itemvalue="JUnit.TREETest" />
-        <item itemvalue="JUnit.AVLTest" />
-        <item itemvalue="JUnit.BSTTest.testpreOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +187,7 @@
       <workItem from="1697530889301" duration="3327000" />
       <workItem from="1697546957992" duration="4133000" />
       <workItem from="1697552907555" duration="4000" />
-      <workItem from="1697567348502" duration="6534000" />
+      <workItem from="1697567348502" duration="8835000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 pl exercise 1 almost done">
       <created>1695228578237</created>
@@ -263,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697501067253</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Week 4 PL exercise done">
+      <option name="closed" value="true" />
+      <created>1697581399152</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697581399152</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +287,7 @@
     <MESSAGE value="Exercise 1 e structure of the exercise 2 from PL3 done" />
     <MESSAGE value="PL3 finalized and some overall structure fixes" />
     <MESSAGE value="Some structural changes and fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some structural changes and fixes" />
+    <MESSAGE value="Week 4 PL exercise done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 4 PL exercise done" />
   </component>
 </project>
