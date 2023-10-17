@@ -1,6 +1,7 @@
 package PLs_Week4;
 
 import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -10,7 +11,7 @@ import java.util.Map;
 
 import static org.junit.Assert.*;
 
-public class BTSTest {
+public class BSTTest {
     Integer[] arr = {20,15,10,13,8,17,40,50,30,7};
     int[] height={0,1,2,3,3,3,3,3,3,4};
     Integer[] inorderT= {7,8,10,13,15,17,20,30,40,50};
@@ -19,23 +20,22 @@ public class BTSTest {
 
     BST<Integer> instance;
 
-    public BTSTest() {
+    public BSTTest() {
     }
 
-    @Before
-    public void setUp(){
+    @BeforeEach
+    public void setUp() {
         instance = new BST();
-        for(int i :arr)
+        for (int i : arr) {
             instance.insert(i);
+        }
     }
     /**
      * Test of size method, of class BST.
      */
     @Test
     public void testSize() {
-        System.out.println("size");
-        assertEquals("size should be = 10",instance.size(), arr.length);
-
+        assertEquals("size should be = 10", instance.size(), arr.length);
         BST<String> sInstance = new BST();
         assertEquals("size should be = 0",sInstance.size(), 0);
         sInstance.insert("A");

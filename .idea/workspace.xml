@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="PL3 finalized and some overall structure fixes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/AVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/BSTInteface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE_WORDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TextWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREETest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREE_WORDSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/UtilsTest.java" afterDir="false" />
+    <list default="true" id="add73099-b1ab-4c21-b9a2-b525c75ad72a" name="Changes" comment="Some structural changes and fixes">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/xxx.xxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week2_JCF/Supermarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/InvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_JCF/InvoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_JCF/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week2/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week2_JCF/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/AVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE_WORDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/TREE_WORDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PLs_Week4/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PLs_Week4/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week4/BTSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/BSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PLs_Week4/TREETest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +67,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -90,6 +84,93 @@
       <recent name="PLs_Week2" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.TREE_WORDSTest">
+    <configuration name="AVLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ESINF_PLs_E_TPs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PLs_Week4" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week4.AVLTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BSTTest.testpreOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ESINF_PLs_E_TPs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PLs_Week4" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week4.BSTTest" />
+      <option name="METHOD_NAME" value="testpreOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TREETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ESINF_PLs_E_TPs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PLs_Week4" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week4.TREETest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TREE_WORDSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ESINF_PLs_E_TPs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PLs_Week4" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week4.TREE_WORDSTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ESINF_PLs_E_TPs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PLs_Week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PLs_Week4" />
+      <option name="MAIN_CLASS_NAME" value="PLs_Week4.UtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TREE_WORDSTest" />
+        <item itemvalue="JUnit.UtilsTest" />
+        <item itemvalue="JUnit.TREETest" />
+        <item itemvalue="JUnit.AVLTest" />
+        <item itemvalue="JUnit.BSTTest.testpreOrder" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,7 +184,11 @@
       <workItem from="1696949709530" duration="322000" />
       <workItem from="1697039237935" duration="3933000" />
       <workItem from="1697453635732" duration="3454000" />
-      <workItem from="1697494688533" duration="3395000" />
+      <workItem from="1697494688533" duration="3637000" />
+      <workItem from="1697530889301" duration="3327000" />
+      <workItem from="1697546957992" duration="4133000" />
+      <workItem from="1697552907555" duration="4000" />
+      <workItem from="1697567348502" duration="6534000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 pl exercise 1 almost done">
       <created>1695228578237</created>
@@ -170,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697457059444</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Some structural changes and fixes">
+      <option name="closed" value="true" />
+      <created>1697501067253</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697501067253</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +279,7 @@
     <MESSAGE value="Exercise 2 from TP2 done" />
     <MESSAGE value="Exercise 1 e structure of the exercise 2 from PL3 done" />
     <MESSAGE value="PL3 finalized and some overall structure fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="PL3 finalized and some overall structure fixes" />
+    <MESSAGE value="Some structural changes and fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some structural changes and fixes" />
   </component>
 </project>

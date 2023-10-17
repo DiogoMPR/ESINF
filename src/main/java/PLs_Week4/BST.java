@@ -1,8 +1,6 @@
 package PLs_Week4;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class BST<E extends Comparable<E>> implements BSTInteface<E> {
 
@@ -68,25 +66,47 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      *
      * @param element    the element to find
      * @return the Node that contains the Element, or null otherwise
-     *
      * This method despite not being essential is very useful.
      * It is written here in order to be used by this class and its
      * subclasses avoiding recoding.
      * So its access level is protected
      */
-    protected Node<E> find(Node<E> node, E element){
-        throw new UnsupportedOperationException("Not supported yet.");
+    protected Node<E> find(E element, Node<E> node){
+        if (node == null) return null;
+        if (element.compareTo(node.getElement()) == 0) return node;
+        if (element.compareTo(node.getElement()) < 0) return find(element, node.getLeft());
+        return find(element, node.getRight());
     }
 
     /*
      * Inserts an element in the tree.
      */
     public void insert(E element){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if(element == null) return;
+        if(this.isEmpty()){
+            root = new Node<>(element, null, null);
+            return;
+        }
+        insert(element, root);
     }
 
     private Node<E> insert(E element, Node<E> node){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (element.compareTo(node.getElement()) < 0) { // Element is smaller, insert on the left
+            if (node.getLeft() == null) {
+                Node<E> newNode = new Node<>(element, null, null);
+                node.setLeft(newNode);
+                return newNode; // Return the newly inserted node
+            }
+            return insert(element, node.getLeft());
+        } else if (element.compareTo(node.getElement()) > 0) { // Element is larger, insert on the right
+            if (node.getRight() == null) {
+                Node<E> newNode = new Node<>(element, null, null);
+                node.setRight(newNode);
+                return newNode; // Return the newly inserted node
+            }
+            return insert(element, node.getRight());
+        }
+        return null; // Return null for elements that are equal (no duplicates)
     }
 
     /**
@@ -129,11 +149,17 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      * @return number of nodes in the tree
      */
     public int size(){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if(this.isEmpty()){
+            return 0;
+        }
+        return size(root);
     }
 
     private int size(Node<E> node){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (node == null) {
+            return 0;
+        }
+        return 1 + size(node.getLeft()) + size(node.getRight());
     }
 
     /*
@@ -141,16 +167,28 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      * @return height
      */
     public int height(){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (this.isEmpty()) {
+            return -1;
+        }
+        return (height(root) -1);
     }
 
     /*
-     * Returns the height of the subtree rooted at Node node.
+     * Returns the height of the subtree rooted at a node.
      * @param node A valid Node within the tree
      * @return height
      */
     protected int height(Node<E> node){
-        throw new UnsupportedOperationException("Not supported yet.");
+        int heightLeft = 1;
+        int heightRight = 1;
+        if (node.getLeft() != null){
+            heightLeft += height(node.getLeft());
+        }
+        if (node.getRight() != null){
+            heightRight += height(node.getRight());
+        }
+        if (heightRight < heightLeft) return heightLeft;
+        return heightRight;
     }
 
     /**
@@ -158,11 +196,15 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      * @return the smallest element within the tree
      */
     public E smallestElement(){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if(isEmpty()) return null;
+        return smallestElement(root);
     }
 
     protected E smallestElement(Node<E> node){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if(node.getLeft() != null){
+            return smallestElement(node.getLeft());
+        }
+        return node.getElement();
     }
 
     /*
@@ -170,13 +212,13 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      * @return iterable collection of the tree's elements reported in in-order
      */
     public Iterable<E> inOrder(){
-        List<E> snapshot = new ArrayList<>();
+        List<E> snapshot = new ArrayList<>(); // stores the elements of the BST in a specific order
         if (root!=null)
             inOrderSubtree(root, snapshot);   // fill the snapshot recursively
         return snapshot;
     }
     /**
-     * Adds elements of the subtree rooted at Node node to the given
+     * Adds elements of the subtree rooted at node to the given
      * snapshot using an in-order traversal
      * @param node       Node serving as the root of a subtree
      * @param snapshot  a list to which results are appended
@@ -193,32 +235,52 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      * @return iterable collection of the tree's elements reported in pre-order
      */
     public Iterable<E> preOrder(){
-        throw new UnsupportedOperationException("Not supported yet.");
+        List<E> snapshot = new ArrayList<>();
+        if(root != null){
+            preOrderSubtree(root, snapshot);
+        }
+        return snapshot;
     }
     /**
-     * Adds elements of the subtree rooted at Node node to the given
-     * snapshot using an pre-order traversal
+     * Adds elements of the subtree rooted at node to the given
+     * snapshot using a pre-order traversal
      * @param node       Node serving as the root of a subtree
      * @param snapshot  a list to which results are appended
      */
     private void preOrderSubtree(Node<E> node, List<E> snapshot) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        snapshot.add(node.getElement());
+        if (node.getLeft() != null){
+            preOrderSubtree(node.getLeft(), snapshot);
+        }
+        if (node.getRight() != null){
+            preOrderSubtree(node.getRight(), snapshot);
+        }
     }
     /**
      * Returns an iterable collection of elements of the tree, reported in post-order.
      * @return iterable collection of the tree's elements reported in post-order
      */
     public Iterable<E> posOrder(){
-        throw new UnsupportedOperationException("Not supported yet.");
+        List<E> snapshot = new ArrayList<>();
+        if(root != null){
+            posOrderSubtree(root, snapshot);
+        }
+        return snapshot;
     }
     /**
      * Adds positions of the subtree rooted at Node node to the given
-     * snapshot using an post-order traversal
+     * snapshot using a post-order traversal
      * @param node       Node serving as the root of a subtree
      * @param snapshot  a list to which results are appended
      */
     private void posOrderSubtree(Node<E> node, List<E> snapshot) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (node.getLeft() != null){
+            posOrderSubtree(node.getLeft(), snapshot);
+        }
+        if (node.getRight() != null){
+            posOrderSubtree(node.getRight(), snapshot);
+        }
+        snapshot.add(node.getElement());
     }
 
     /*
@@ -226,11 +288,25 @@ public class BST<E extends Comparable<E>> implements BSTInteface<E> {
      * @return a map with a list of nodes by each tree level
      */
     public Map<Integer,List<E>> nodesByLevel(){
-        throw new UnsupportedOperationException("Not supported yet.");
+        Map<Integer, List<E>> result = new HashMap<>();
+        if(isEmpty()){
+            return null;
+        }
+        processBstByLevel(root, result, 0);
+        return result;
     }
 
     private void processBstByLevel(Node<E> node, Map<Integer,List<E>> result, int level){
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (!result.containsKey(level)){
+            result.put(level, new LinkedList<>());
+        }
+        result.get(level).add(node.getElement());
+        if (node.getLeft() != null){
+            processBstByLevel(node.getLeft(), result, level + 1);
+        }
+        if (node.getRight() != null){
+            processBstByLevel(node.getRight(), result, level + 1);
+        }
     }
 
 //#########################################################################
